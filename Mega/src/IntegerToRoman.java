@@ -27,7 +27,7 @@ public class IntegerToRoman {
 	    		Scanner sc=new Scanner(System.in);
 	    		num=sc.nextInt();
 	    	
-	    	}while(num>=4000);
+	    	}while(num>=4000||num<=0);
 	    	System.out.println(num+": "+ToRoman(num));
 	    	
 	}
