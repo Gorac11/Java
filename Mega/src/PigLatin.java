@@ -31,7 +31,7 @@ public class PigLatin {
 				}	//inner for loop ends
 			}	//outer for loop ends
 			//System.out.println(letterTicker);		//Prints the ticker
-			//.out.println("necessary: "+engWord.length());	//Shows needed number of ticks
+			//System.out.println("necessary: "+engWord.length());	//Shows needed number of ticks
 			if(letterTicker<engWord.length()) {
 				TestFlag=true;
 			}
