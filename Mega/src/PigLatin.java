@@ -30,7 +30,7 @@ public class PigLatin {
 			else {
 				startconso = String.valueOf(startLetter);
 				word = word.concat(startconso).concat("ay");
-	            word = word.substring(1);
+				word = word.substring(1);
 			}      
 			
 		}	//ends all ifs
