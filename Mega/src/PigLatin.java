@@ -17,15 +17,15 @@ public class PigLatin {
 			startLetter == 'o' ||
 			startLetter == 'u') {
 	        	
-			word = word.concat("yay");
+				word = word.concat("yay");
 		} 
 		else {
 			String startconso = "";
 		
 	        if (word.charAt(1) == 'h') {
-			startconso = word.substring(0, 2);
-	        word = word.concat(startconso).concat("ay");
-	        word = word.substring(2);
+				startconso = word.substring(0, 2);
+	        	word = word.concat(startconso).concat("ay");
+	        	word = word.substring(2);
 	        }
 			else {
 				startconso = String.valueOf(startLetter);
