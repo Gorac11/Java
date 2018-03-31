@@ -11,13 +11,13 @@ public class PigLatin {
 	    char startLetter = word.charAt(0);
 	        
 	    if (
-			startLetter == 'a' ||
-			startLetter == 'e' ||
-			startLetter == 'i' ||
-			startLetter == 'o' ||
-			startLetter == 'u') {
+		startLetter == 'a' ||
+		startLetter == 'e' ||
+		startLetter == 'i' ||
+		startLetter == 'o' ||
+		startLetter == 'u') {
 	        	
-				word = word.concat("yay");
+			word = word.concat("yay");
 		} 
 		else {
 			String startconso = "";
