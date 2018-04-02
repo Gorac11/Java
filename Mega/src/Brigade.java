@@ -15,7 +15,7 @@ public class Brigade {
 		System.out.println("Ins number: ");
 		number=sc.nextInt();
 		System.out.println("Ins bossname: ");
-		bossname=sc.nextLine();
+		bossname=sc.nextLine();		//To consume the newline from nextInt
 		bossname=sc.nextLine();
 		
 	}
@@ -28,7 +28,7 @@ public class Brigade {
 		System.out.println("How many Brigades?");
 		Scanner scan=new Scanner(System.in);
 		int count=scan.nextInt();
-		List<Brigade> brigades = new ArrayList<Brigade>();
+		List<Brigade> brigades = new ArrayList<Brigade>();	//To store the objects
 		for(int i = 0; i < count; i++) {
 		    brigades.add(new Brigade("", 0, ""));
 		    brigades.get(i).setBrigade();
