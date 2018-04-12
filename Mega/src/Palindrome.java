@@ -15,7 +15,7 @@ public class Palindrome {
 		
 		for (int i=0;i<(n/2);i++) {
 			if(str.charAt(i)!=str.charAt(n-i-1)) {
-				/*  System.out.println(str.charAt(i)+" "+str.charAt(n-i-1)); To print out the letter comparing */
+				/*  System.out.println(str.charAt(i)+" "+str.charAt(n-i-1)); //To print out the letter comparing */
 				flag=false;}
 				else {flag=true;
 				
